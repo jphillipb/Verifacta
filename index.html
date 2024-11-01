@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifacta - Live AI Fact Checking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Verifacta</h1>
+            <p>Live AI Fact Checking</p>
+        </header>
+        <main>
+            <div class="control-panel">
+                <button id="stream-btn" class="btn-primary">Start Streaming</button>
+            </div>
+            <div class="results-panel">
+                <h2>Analysis Result</h2>
+                <div id="analysis-text" class="analysis-content">
+                    No analysis available yet. Start streaming to begin.
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Verifacta. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
