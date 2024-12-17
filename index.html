@@ -3,30 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verifacta - Live AI Fact Checking</title>
+    <title>Verifacta - Live Media Fact-Checking</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Verifacta</h1>
-            <p>Live AI Fact Checking</p>
+            <div class="logo-container">
+                <img src="assests/verifacta_logo.png" alt="Verifacta Logo" class="logo">
+            </div>
+    
+            <p class="subtitle">Real-time media fact checking</p>
         </header>
+
         <main>
             <div class="control-panel">
                 <button id="stream-btn" class="btn-primary">Start Streaming</button>
+                <button id="stop-btn" class="stop-btn">Stop Streaming</button>
+                
+                <div class="status-indicator">
+                    <span id="status-dot"></span>
+                    <span id="status-text">Ready to stream</span>
+                </div>
             </div>
+
             <div class="results-panel">
-                <h2>Analysis Result</h2>
-                <div id="analysis-text" class="analysis-content">
-                    No analysis available yet. Start streaming to begin.
+                <div class="results-header">
+                    <h2>Fact-Check Results</h2>
+                    <div class="refresh-time" id="last-update"></div>
+                </div>
+
+                <div class="analysis-section">
+                    <div id="analysis-text" class="analysis-content">
+                        <p>No analysis available yet. Start streaming to begin.</p>
+                    </div>
+                </div>
+
+                <div class="fact-checks">
+                    <div id="fact-check-results">
+                        <!-- Results will be dynamically inserted here -->
+                    </div>
                 </div>
             </div>
         </main>
+
+        <div id="error-modal" class="modal hidden">
+            <div class="modal-content">
+                <h3>Error</h3>
+                <p id="error-message"></p>
+                <button id="error-close" class="btn-secondary">Close</button>
+            </div>
+        </div>
+
         <footer>
-            <p>&copy; 2024 Verifacta. All rights reserved.</p>
+            <p>© 2024 Verifacta. All rights reserved.</p>
         </footer>
     </div>
+
     <script src="renderer.js"></script>
 </body>
 </html>
