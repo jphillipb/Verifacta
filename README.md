@@ -28,11 +28,15 @@ Verifacta is a desktop application that performs real-time fact-checking of audi
 - Speech Recognition
 
 ## Prerequisites
-
 Before you begin, ensure you have the following installed:
-- Node.js and npm
-- Python 3.x
-- Virtual environment (venv)
+
+Node.js and npm
+Python 3.x
+Virtual environment (venv)
+BlackHole Virtual Audio Driver (for MacOS)
+
+Can be installed via: brew install blackhole-2ch
+Or downloaded from: https://existential.audio/blackhole/
 
 ## Installation
 
