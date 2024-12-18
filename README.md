@@ -14,7 +14,7 @@ Verifacta is a desktop application that performs real-time fact-checking of audi
 - User-friendly desktop interface with expandable results
 - Real-time status updates and error handling
 
-##System Compatibility
+System Compatibility
 
 Important: Verifacta is currently only supported and tested on MacOS systems. 
 While built with Electron.js, which theoretically supports cross-platform deployment, 
