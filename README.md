@@ -1,6 +1,16 @@
 # Verifacta - Rapid Response Media Fact-Checking
 
-Note: Currently only supported and tested on MacOS.
+Important Notes:
+Currently supported and tested on MacOS systems only
+Successfully tested with YouTube videos and recorded content
+Demonstrates proof of concept for real-time media fact-checking technology
+Current Testing & Usage
+The application has been tested and demonstrated with:
+YouTube videos
+Recorded media content
+Online video content
+While designed with the potential for live media monitoring, the current version has not been tested in live broadcast environments.
+
 
 Verifacta is a desktop application that performs real-time fact-checking of audio streams using advanced AI and machine learning technologies. It transcribes spoken content, identifies fact-checkable statements, and provides immediate verification with supporting and challenging arguments.
 
