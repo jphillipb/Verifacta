@@ -59,6 +59,14 @@ Or downloaded from: https://existential.audio/blackhole/
 
 ## Installation
 
+#### BlackHole Audio Driver (Required for MacOS)
+- BlackHole 2ch Virtual Audio Driver must be installed and configured
+- Install via Homebrew: `brew install blackhole-2ch`
+- Or download directly from: https://existential.audio/blackhole/
+- Configure in System Settings > Sound:
+  - Set BlackHole 2ch as an input device
+  - Route system audio through BlackHole for capturing content audio
+
 ### Backend Setup
 1. Navigate to the backend directory:
 ```bash
