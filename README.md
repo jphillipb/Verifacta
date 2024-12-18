@@ -1,5 +1,7 @@
 # Verifacta - Rapid Response Media Fact-Checking
 
+Note: Currently only supported and tested on MacOS.
+
 Verifacta is a desktop application that performs real-time fact-checking of audio streams using advanced AI and machine learning technologies. It transcribes spoken content, identifies fact-checkable statements, and provides immediate verification with supporting and challenging arguments.
 
 ## Features
@@ -11,6 +13,12 @@ Verifacta is a desktop application that performs real-time fact-checking of audi
 - Supporting and challenging argument generation
 - User-friendly desktop interface with expandable results
 - Real-time status updates and error handling
+
+##System Compatibility
+
+Important: Verifacta is currently only supported and tested on MacOS systems. 
+While built with Electron.js, which theoretically supports cross-platform deployment, 
+the application has not been tested or configured for Windows or Linux environments.
 
 ## Technical Architecture
 
