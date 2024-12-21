@@ -1,4 +1,4 @@
-# Verifacta - Rapid Response Media Fact-Checking
+# Verifacta - Real-Time Media Fact-Checker
 
 Verifacta is a desktop application that performs real-time fact-checking of audio streams using advanced AI and machine learning technologies. It transcribes spoken content, identifies fact-checkable statements, and provides immediate verification with supporting and challenging arguments.
 
