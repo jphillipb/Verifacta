@@ -151,6 +151,4 @@ The application includes comprehensive error handling for:
 - Additional verification sources
 - Export and sharing capabilities
 
-## Contributing
 
-This project was created for a hackathon demonstration. For contributions, please submit issues and pull requests through GitHub.
