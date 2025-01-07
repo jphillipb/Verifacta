@@ -38,13 +38,13 @@ the application has not been tested or configured for Windows or Linux environme
 - HTML5
 - JavaScript
 - CSS3
-- Media Stream API for audio capture
+
 
 ### Backend
 - Python Flask server
 - OpenAI GPT-4 API
 - Google Custom Search API
-- Speech Recognition
+
 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
