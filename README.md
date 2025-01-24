@@ -37,7 +37,7 @@ the application has not been tested or configured for Windows or Linux environme
 - Electron.js
 - HTML5
 - JavaScript
-- CSS3
+- CSS
 
 
 ### Backend
